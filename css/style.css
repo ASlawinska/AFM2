@@ -1,0 +1,105 @@
+/* General rules */
+
+body{
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+/* Navigation */
+
+.navbar{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: black;
+  font-weight: bold;
+}
+
+.navbar-brand img{
+  height: 1.8rem;
+}
+
+.navbar-nav li{
+  padding-right: 0.6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 0.6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:lime;
+}
+/* landing */
+.home-inner{
+  background-image: url(../img/computers.png);
+  background-size: contain;
+}
+.caption{
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  z-index: 1;
+  color: azure;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.caption h1, .caption h2{
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-bottom: 0.6rem;
+}
+/*courses*/
+#courses{
+  border: 5px solid darkgrey;
+}
+/*features*/
+.jumbotron{
+  color:black;
+  padding-bottom:0;
+  margin-bottom: 0;
+}
+.features-list{
+  list-style: none;
+}
+.jumbotron .line{
+  margin-bottom: 0;
+}
+/*clients*/
+.client{
+  border-radius: 50%;
+  width: 90%;
+  max-width: 90%;
+}
+.blockquote{
+  width: 90%;
+  margin: 0auto;
+  font-size: 0.8rem;
+}
+/*Fotter*/
+footer a{
+  color:white;
+}
+footer a:hover{
+  color:black;
+}
+footer{
+  background-color: lighgrey;
+}
+
+
+
+
+/*MQ*/
+@media screen and (max-width: 768px){
+  .client{
+    min-width: 30%;
+    width: 40%;
+  }
+
+  .blockquote p{
+    font-size: 0.8em;
+  }
+}
